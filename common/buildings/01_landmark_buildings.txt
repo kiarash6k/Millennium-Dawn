@@ -50,15 +50,15 @@ buildings = {
 		only_display_if_exists = yes
 		special_icon = GFX_big_ben_icon_small
 		level_cap = {
-			province_max = 1
+			province_max = 3
 		}
 		always_shown = yes
 		drawn_at_distance = yes
 		show_modifier = yes
 		country_modifiers = {
 			modifiers = {
+				political_power_factor = 0.02
 				stability_factor = 0.02
-				population_tax_income_multiplier_modifier = 0.02
 			}
 		}
 	}
@@ -78,14 +78,14 @@ buildings = {
 		only_display_if_exists = yes
 		special_icon = GFX_colosseum_icon_small
 		level_cap = {
-			province_max = 1
+			province_max = 3
 		}
 		always_shown = yes
 		show_modifier = yes
 		country_modifiers = {
 			modifiers = {
+				population_tax_income_multiplier_modifier = 0.03
 				stability_factor = 0.02
-				population_tax_income_multiplier_modifier = 0.02
 			}
 		}
 	}
@@ -105,13 +105,13 @@ buildings = {
 		only_display_if_exists = yes
 		special_icon = GFX_cristo_redentor_icon_small
 		level_cap = {
-			province_max = 1
+			province_max = 3
 		}
 		always_shown = yes
 		show_modifier = yes
 		country_modifiers = {
 			modifiers = {
-				stability_factor = 0.02
+				stability_factor = 0.03
 				population_tax_income_multiplier_modifier = 0.02
 			}
 		}
@@ -132,15 +132,15 @@ buildings = {
 		only_display_if_exists = yes
 		special_icon = GFX_eiffel_tower_icon_small
 		level_cap = {
-			province_max = 1
+			province_max = 3
 		}
 		always_shown = yes
 		drawn_at_distance = yes
 		show_modifier = yes
 		country_modifiers = {
 			modifiers = {
+				population_tax_income_multiplier_modifier = 0.03
 				stability_factor = 0.02
-				population_tax_income_multiplier_modifier = 0.02
 			}
 		}
 	}
@@ -158,15 +158,14 @@ buildings = {
 		only_display_if_exists = yes
 		special_icon = GFX_statue_of_liberty_icon_small
 		level_cap = {
-			province_max = 1
+			province_max = 3
 		}
 		always_shown = yes
 		show_modifier = yes
 		country_modifiers = {
 			modifiers = {
+				migration_rate_value_factor = 0.05
 				stability_factor = 0.02
-				political_power_factor = 0.01
-				population_tax_income_multiplier_modifier = 0.02
 			}
 		}
 	}
@@ -185,15 +184,14 @@ buildings = {
 		only_display_if_exists = yes
 		special_icon = GFX_kremlin_icon_small
 		level_cap = {
-			province_max = 1
+			province_max = 3
 		}
 		always_shown = yes
 		show_modifier = yes
 		country_modifiers = {
 			modifiers = {
-				stability_factor = 0.02
-				command_power_gain_mult = 0.02
-				population_tax_income_multiplier_modifier = 0.02
+				command_power_gain_mult = 0.03
+				political_power_factor = 0.02
 			}
 		}
 	}
@@ -312,14 +310,14 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		level_cap = {
-			province_max = 1
+			province_max = 3
 		}
 		always_shown = yes
 		show_modifier = yes
 		country_modifiers = {
 			modifiers = {
-				stability_factor = 0.02
-				population_tax_income_multiplier_modifier = 0.02
+				production_speed_infrastructure_factor = 0.03
+				stability_factor = 0.01
 			}
 		}
 	}
@@ -436,14 +434,14 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		level_cap = {
-			province_max = 1
+			province_max = 3
 		}
 		always_shown = yes
 		show_modifier = yes
 		country_modifiers = {
 			modifiers = {
+				population_tax_income_multiplier_modifier = 0.03
 				stability_factor = 0.02
-				population_tax_income_multiplier_modifier = 0.02
 			}
 		}
 	}
@@ -609,14 +607,14 @@ buildings = {
 		only_display_if_exists = yes
 		special_icon = GFX_haga_sofia_icon_small
 		level_cap = {
-			province_max = 1
+			province_max = 3
 		}
 		always_shown = yes
 		drawn_at_distance = yes
 		show_modifier = yes
 		country_modifiers = {
 			modifiers = {
-				stability_factor = 0.02
+				stability_factor = 0.03
 				population_tax_income_multiplier_modifier = 0.02
 			}
 		}
@@ -692,15 +690,15 @@ buildings = {
 		only_display_if_exists = yes
 		special_icon = GFX_taj_mahal_icon_small
 		level_cap = {
-			province_max = 1
+			province_max = 3
 		}
 		always_shown = yes
 		drawn_at_distance = yes
 		show_modifier = yes
 		country_modifiers = {
 			modifiers = {
+				population_tax_income_multiplier_modifier = 0.03
 				stability_factor = 0.02
-				population_tax_income_multiplier_modifier = 0.02
 			}
 		}
 	}
@@ -784,6 +782,445 @@ buildings = {
 			modifiers = {
 				stability_factor = 0.02
 				population_tax_income_multiplier_modifier = 0.01
+			}
+		}
+	}
+
+	landmark_great_wall = {
+		show_on_map = 0
+		base_cost = 20000
+		damage_factor = 0
+		icon_frame = 22
+		value = 5
+		is_buildable = no
+		disable_grow_animation = yes
+		only_display_if_exists = yes
+		level_cap = {
+			province_max = 3
+		}
+		always_shown = yes
+		show_modifier = yes
+		country_modifiers = {
+			modifiers = {
+				stability_factor = 0.02
+				war_support_factor = 0.02
+			}
+		}
+	}
+
+	landmark_machu_picchu = {
+		show_on_map = 0
+		base_cost = 20000
+		damage_factor = 0
+		icon_frame = 22
+		value = 5
+		is_buildable = no
+		disable_grow_animation = yes
+		only_display_if_exists = yes
+		level_cap = {
+			province_max = 3
+		}
+		always_shown = yes
+		show_modifier = yes
+		country_modifiers = {
+			modifiers = {
+				population_tax_income_multiplier_modifier = 0.03
+				stability_factor = 0.02
+			}
+		}
+	}
+
+	landmark_chichen_itza = {
+		show_on_map = 0
+		base_cost = 20000
+		damage_factor = 0
+		icon_frame = 22
+		value = 5
+		is_buildable = no
+		disable_grow_animation = yes
+		only_display_if_exists = yes
+		level_cap = {
+			province_max = 3
+		}
+		always_shown = yes
+		show_modifier = yes
+		country_modifiers = {
+			modifiers = {
+				population_tax_income_multiplier_modifier = 0.03
+				stability_factor = 0.02
+			}
+		}
+	}
+
+	landmark_st_peters = {
+		show_on_map = 0
+		base_cost = 20000
+		damage_factor = 0
+		icon_frame = 22
+		value = 5
+		is_buildable = no
+		disable_grow_animation = yes
+		only_display_if_exists = yes
+		level_cap = {
+			province_max = 3
+		}
+		always_shown = yes
+		show_modifier = yes
+		country_modifiers = {
+			modifiers = {
+				political_power_factor = 0.02
+				stability_factor = 0.02
+			}
+		}
+	}
+
+	landmark_acropolis = {
+		show_on_map = 0
+		base_cost = 20000
+		damage_factor = 0
+		icon_frame = 22
+		value = 5
+		is_buildable = no
+		disable_grow_animation = yes
+		only_display_if_exists = yes
+		level_cap = {
+			province_max = 3
+		}
+		always_shown = yes
+		show_modifier = yes
+		country_modifiers = {
+			modifiers = {
+				population_tax_income_multiplier_modifier = 0.03
+				stability_factor = 0.02
+			}
+		}
+	}
+
+	landmark_angkor_wat = {
+		show_on_map = 0
+		base_cost = 20000
+		damage_factor = 0
+		icon_frame = 22
+		value = 5
+		is_buildable = no
+		disable_grow_animation = yes
+		only_display_if_exists = yes
+		level_cap = {
+			province_max = 3
+		}
+		always_shown = yes
+		show_modifier = yes
+		country_modifiers = {
+			modifiers = {
+				population_tax_income_multiplier_modifier = 0.03
+				stability_factor = 0.02
+			}
+		}
+	}
+
+	landmark_kiyomizu_dera = {
+		show_on_map = 0
+		base_cost = 20000
+		damage_factor = 0
+		icon_frame = 22
+		value = 5
+		is_buildable = no
+		disable_grow_animation = yes
+		only_display_if_exists = yes
+		level_cap = {
+			province_max = 3
+		}
+		always_shown = yes
+		show_modifier = yes
+		country_modifiers = {
+			modifiers = {
+				population_tax_income_multiplier_modifier = 0.03
+				stability_factor = 0.02
+			}
+		}
+	}
+
+	landmark_sydney_opera = {
+		show_on_map = 0
+		base_cost = 20000
+		damage_factor = 0
+		icon_frame = 22
+		value = 5
+		is_buildable = no
+		disable_grow_animation = yes
+		only_display_if_exists = yes
+		level_cap = {
+			province_max = 3
+		}
+		always_shown = yes
+		show_modifier = yes
+		country_modifiers = {
+			modifiers = {
+				population_tax_income_multiplier_modifier = 0.03
+				stability_factor = 0.02
+			}
+		}
+	}
+
+	landmark_cn_tower = {
+		show_on_map = 0
+		base_cost = 20000
+		damage_factor = 0
+		icon_frame = 22
+		value = 5
+		is_buildable = no
+		disable_grow_animation = yes
+		only_display_if_exists = yes
+		level_cap = {
+			province_max = 3
+		}
+		always_shown = yes
+		show_modifier = yes
+		country_modifiers = {
+			modifiers = {
+				production_speed_internet_station_factor = 0.05
+				stability_factor = 0.01
+			}
+		}
+	}
+
+	landmark_itaipu_dam = {
+		show_on_map = 0
+		base_cost = 20000
+		damage_factor = 0
+		icon_frame = 22
+		value = 5
+		is_buildable = no
+		disable_grow_animation = yes
+		only_display_if_exists = yes
+		level_cap = {
+			province_max = 3
+		}
+		always_shown = yes
+		show_modifier = yes
+		country_modifiers = {
+			modifiers = {
+				hydroelectric_power_generation_modifier = 0.05
+				stability_factor = 0.01
+			}
+		}
+	}
+
+	landmark_delta_works = {
+		show_on_map = 0
+		base_cost = 20000
+		damage_factor = 0
+		icon_frame = 22
+		value = 5
+		is_buildable = no
+		disable_grow_animation = yes
+		only_display_if_exists = yes
+		level_cap = {
+			province_max = 3
+		}
+		always_shown = yes
+		show_modifier = yes
+		country_modifiers = {
+			modifiers = {
+				stability_factor = 0.03
+				production_speed_buildings_factor = 0.02
+			}
+		}
+	}
+
+	landmark_oresund_bridge = {
+		show_on_map = 0
+		base_cost = 20000
+		damage_factor = 0
+		icon_frame = 22
+		value = 5
+		is_buildable = no
+		disable_grow_animation = yes
+		only_display_if_exists = yes
+		level_cap = {
+			province_max = 3
+		}
+		always_shown = yes
+		show_modifier = yes
+		country_modifiers = {
+			modifiers = {
+				production_speed_infrastructure_factor = 0.03
+				international_market_income_modifier = 0.02
+			}
+		}
+	}
+
+	landmark_palm_jumeirah = {
+		show_on_map = 0
+		base_cost = 20000
+		damage_factor = 0
+		icon_frame = 22
+		value = 5
+		is_buildable = no
+		disable_grow_animation = yes
+		only_display_if_exists = yes
+		level_cap = {
+			province_max = 3
+		}
+		always_shown = yes
+		show_modifier = yes
+		country_modifiers = {
+			modifiers = {
+				population_tax_income_multiplier_modifier = 0.03
+				migration_rate_value_factor = 0.05
+			}
+		}
+	}
+
+	landmark_three_gorges = {
+		show_on_map = 0
+		base_cost = 20000
+		damage_factor = 0
+		icon_frame = 22
+		value = 5
+		is_buildable = no
+		disable_grow_animation = yes
+		only_display_if_exists = yes
+		level_cap = {
+			province_max = 3
+		}
+		always_shown = yes
+		show_modifier = yes
+		country_modifiers = {
+			modifiers = {
+				hydroelectric_power_generation_modifier = 0.05
+				stability_factor = 0.01
+			}
+		}
+	}
+
+	landmark_burj_khalifa = {
+		show_on_map = 0
+		base_cost = 20000
+		damage_factor = 0
+		icon_frame = 22
+		value = 5
+		is_buildable = no
+		disable_grow_animation = yes
+		only_display_if_exists = yes
+		level_cap = {
+			province_max = 3
+		}
+		always_shown = yes
+		show_modifier = yes
+		country_modifiers = {
+			modifiers = {
+				corporate_tax_income_multiplier_modifier = 0.03
+				offices_productivity = 0.03
+			}
+		}
+	}
+
+	landmark_one_wtc = {
+		show_on_map = 0
+		base_cost = 20000
+		damage_factor = 0
+		icon_frame = 22
+		value = 5
+		is_buildable = no
+		disable_grow_animation = yes
+		only_display_if_exists = yes
+		level_cap = {
+			province_max = 3
+		}
+		always_shown = yes
+		show_modifier = yes
+		country_modifiers = {
+			modifiers = {
+				corporate_tax_income_multiplier_modifier = 0.03
+				stability_factor = 0.02
+			}
+		}
+	}
+
+	landmark_shanghai_tower = {
+		show_on_map = 0
+		base_cost = 20000
+		damage_factor = 0
+		icon_frame = 22
+		value = 5
+		is_buildable = no
+		disable_grow_animation = yes
+		only_display_if_exists = yes
+		level_cap = {
+			province_max = 3
+		}
+		always_shown = yes
+		show_modifier = yes
+		country_modifiers = {
+			modifiers = {
+				corporate_tax_income_multiplier_modifier = 0.03
+				offices_productivity = 0.03
+			}
+		}
+	}
+
+	landmark_lotte_tower = {
+		show_on_map = 0
+		base_cost = 20000
+		damage_factor = 0
+		icon_frame = 22
+		value = 5
+		is_buildable = no
+		disable_grow_animation = yes
+		only_display_if_exists = yes
+		level_cap = {
+			province_max = 3
+		}
+		always_shown = yes
+		show_modifier = yes
+		country_modifiers = {
+			modifiers = {
+				corporate_tax_income_multiplier_modifier = 0.03
+				population_tax_income_multiplier_modifier = 0.02
+			}
+		}
+	}
+
+	landmark_lhc = {
+		show_on_map = 0
+		base_cost = 20000
+		damage_factor = 0
+		icon_frame = 22
+		value = 5
+		is_buildable = no
+		disable_grow_animation = yes
+		only_display_if_exists = yes
+		level_cap = {
+			province_max = 3
+		}
+		always_shown = yes
+		show_modifier = yes
+		country_modifiers = {
+			modifiers = {
+				research_speed_factor = 0.03
+			}
+		}
+	}
+
+	landmark_iter = {
+		show_on_map = 0
+		base_cost = 20000
+		damage_factor = 0
+		icon_frame = 22
+		value = 5
+		is_buildable = no
+		disable_grow_animation = yes
+		only_display_if_exists = yes
+		level_cap = {
+			province_max = 3
+		}
+		always_shown = yes
+		show_modifier = yes
+		country_modifiers = {
+			modifiers = {
+				research_speed_factor = 0.03
+				nuclear_energy_gain = 0.05
 			}
 		}
 	}

@@ -164,3 +164,108 @@
  landmark_hofburg_palace_desc: "The Hofburg, in the heart of Vienna, served for centuries as the principal imperial palace of the Habsburg dynasty. Today its halls house the offices of the Austrian Federal President, the Spanish Riding School, the Imperial Treasury, and several major museums. It remains one of Vienna's defining landmarks and a centerpiece of Austrian cultural tourism."
 
  landmark_berlin_reichstag_desc: "The Reichstag building on Platz der Republik has stood at the political center of Berlin for over a century. Heavily damaged in 1933 and again during the Second World War, it was restored after reunification under Norman Foster's redesign and reopened in 1999 as the seat of the Bundestag, the German federal parliament. Its glass dome has become a defining symbol of modern German democracy and a major attraction in central Berlin."
+
+ landmark_great_wall: "Great Wall of China"
+ landmark_great_wall_plural: "$landmark_great_wall$"
+ landmark_great_wall_desc: "Constructed over more than two thousand years across multiple dynasties, the Great Wall of China stretches over 13,000 miles along the country's northern borders. Built to defend against nomadic invasions and regulate trade along the Silk Road, the wall represents one of the most ambitious construction projects in human history. Today it stands as China's most recognizable symbol and a UNESCO World Heritage Site, drawing millions of visitors annually to experience its winding path through mountains and deserts."
+
+ landmark_machu_picchu: "Machu Picchu"
+ landmark_machu_picchu_plural: "$landmark_machu_picchu$"
+ landmark_machu_picchu_desc: "Built around 1450 during the reign of Inca emperor Pachacuti, Machu Picchu stands as a citadel in the Eastern Cordillera of southern Peru. Hidden high in the Andes Mountains, this masterwork of Inca engineering remained unknown to the Spanish conquistadors and was lost to the outside world until American historian Hiram Bingham brought it to international attention in 1911. Today it is Peru's most-visited archaeological site and a UNESCO World Heritage Site, drawing trekkers and tourists from around the world."
+
+ landmark_chichen_itza: "Chichen Itza"
+ landmark_chichen_itza_plural: "$landmark_chichen_itza$"
+ landmark_chichen_itza_desc: "One of the largest pre-Columbian settlements on the Yucatan Peninsula, Chichen Itza flourished from roughly 600 to 1200 CE as a major center of the Maya civilization. The site showcases a blend of pure Maya and Toltec-influenced architecture, with the iconic pyramid of Kukulkan dominating its ceremonial center. Designated a UNESCO World Heritage Site in 1988, it is Mexico's most-visited archaeological monument and ranks among the most-visited sites in all of Mesoamerica."
+
+ landmark_st_peters: "St. Peter's Basilica"
+ landmark_st_peters_plural: "$landmark_st_peters$"
+ landmark_st_peters_desc: "Built between 1506 and 1626, St. Peter's Basilica stands at the heart of Vatican City, the spiritual and administrative center of the Roman Catholic Church. Its massive dome, designed by Michelangelo, dominates the Vatican skyline and makes it one of the world's largest churches by interior volume. The basilica houses countless works of Renaissance and Baroque art, and its forecourt plaza remains the site of papal ceremonies and gatherings of the global Catholic faithful."
+
+ landmark_acropolis: "Acropolis of Athens"
+ landmark_acropolis_plural: "$landmark_acropolis$"
+ landmark_acropolis_desc: "Perched on a rocky hill overlooking Athens, the Acropolis has served as a religious and civic center since ancient times. The Parthenon, built between 447 and 432 BCE as a temple to Athena, stands as the finest example of Classical Greek architecture ever constructed. Damaged by wars, occupation, and pollution over the centuries, the Acropolis and its monuments remain Greece's most-visited landmark and a UNESCO World Heritage Site symbolizing the birthplace of Western civilization."
+
+ landmark_angkor_wat: "Angkor Wat"
+ landmark_angkor_wat_plural: "$landmark_angkor_wat$"
+ landmark_angkor_wat_desc: "Built in the early twelfth century under Khmer king Suryavarman II, Angkor Wat stands as the largest religious monument in the world by area. Constructed as a Hindu temple and later converted to a Buddhist sanctuary, its five towers and intricate stone carvings represent the pinnacle of Khmer architectural achievement. Located in northwestern Cambodia, it is the most-visited tourist attraction in Southeast Asia and a UNESCO World Heritage Site that has become the symbol of Cambodia itself."
+
+ landmark_kiyomizu_dera: "Kiyomizu-dera"
+ landmark_kiyomizu_dera_plural: "$landmark_kiyomizu_dera$"
+ landmark_kiyomizu_dera_desc: "Founded in 778 on a hillside in Kyoto, Kiyomizu-dera is one of Japan's most celebrated Buddhist temples. Its main hall, rebuilt in 1633, sits on a wooden veranda that extends over a valley and offers commanding views of Kyoto below. The temple's iconic red pagoda and its position on the Higashiyama mountains have made it one of Japan's most-visited cultural sites and a UNESCO World Heritage Site, drawing pilgrims and tourists year-round."
+
+ landmark_sydney_opera: "Sydney Opera House"
+ landmark_sydney_opera_plural: "$landmark_sydney_opera$"
+ landmark_sydney_opera_desc: "Completed in 1973 on Bennelong Point in Sydney Harbour, the Sydney Opera House stands as one of the world's most iconic and distinctive buildings. Designed by Danish architect Joern Utzon, its innovative shell-like roof design revolutionized modern architecture. The facility hosts over a thousand performances annually and draws millions of visitors, making it Australia's most recognizable landmark and a UNESCO World Heritage Site."
+
+ landmark_cn_tower: "CN Tower"
+ landmark_cn_tower_plural: "$landmark_cn_tower$"
+ landmark_cn_tower_desc: "Completed in 1976 and standing at 553 meters, the CN Tower dominated the world's skyline as the world's tallest free-standing structure for over thirty years. Built in Toronto, Ontario, the tower was designed to withstand earthquakes, ice storms, and winds exceeding 100 miles per hour. Its observation decks and entertainment facilities draw hundreds of thousands of visitors annually, making it Canada's most-visited paid attraction."
+
+ landmark_itaipu_dam: "Itaipu Dam"
+ landmark_itaipu_dam_plural: "$landmark_itaipu_dam$"
+ landmark_itaipu_dam_desc: "Completed in 1984 on the Parana River between Brazil and Paraguay, Itaipu Dam stands as one of the world's largest hydroelectric dams by power generation capacity. At its peak, it supplied about 75 percent of Paraguay's electricity and 20 percent of Brazil's power needs. The dam's construction represented a landmark of regional cooperation and engineering achievement, and today it remains a symbol of binational partnership and technological accomplishment."
+
+ landmark_delta_works: "Delta Works"
+ landmark_delta_works_plural: "$landmark_delta_works$"
+ landmark_delta_works_desc: "A comprehensive system of dikes, dunes, locks, and barriers built over centuries to protect the low-lying Netherlands from the sea, the Delta Works represent humanity's longest struggle against water. Reinforced and expanded throughout the twentieth century, the system exemplifies Dutch hydraulic engineering and the national determination to reclaim and defend land below sea level. Collectively designated a UNESCO World Heritage Site in 2015, the Delta Works stand as testament to Dutch innovation and perseverance."
+
+ landmark_oresund_bridge: "Oresund Bridge"
+ landmark_oresund_bridge_plural: "$landmark_oresund_bridge$"
+ landmark_oresund_bridge_desc: "Opened in 2000, the Oresund Bridge links Copenhagen, Denmark with Malmo, Sweden across the Oresund Strait. At 7.8 kilometers, it is the world's longest combined road and rail bridge serving both countries. The bridge transformed regional integration and cooperation, reducing travel time between the Nordic capitals and facilitating unprecedented labor mobility and economic exchange across the strait."
+
+ landmark_palm_jumeirah: "Palm Jumeirah"
+ landmark_palm_jumeirah_plural: "$landmark_palm_jumeirah$"
+ landmark_palm_jumeirah_desc: "Completed in 2008, Palm Jumeirah is an artificial archipelago off the coast of Dubai created by dredging and land reclamation. Shaped like a palm tree when viewed from above, the development showcases Dubai's ambition to create luxury residential and resort communities on an unprecedented scale. The Palm draws international investors, residents, and tourists, symbolizing both the city's rapid modernization and its commitment to transforming its coastline."
+
+ landmark_three_gorges: "Three Gorges Dam"
+ landmark_three_gorges_plural: "$landmark_three_gorges$"
+ landmark_three_gorges_desc: "Completed in 2012 on the Yangtze River in Hubei Province, the Three Gorges Dam is the world's largest power station by generating capacity. The dam stands 185 meters tall and creates a reservoir stretching over 600 kilometers upstream. Its construction required the relocation of over a million people and represented China's most ambitious engineering project of the modern era, providing renewable hydroelectric power while enabling improved navigation and flood control."
+
+ landmark_burj_khalifa: "Burj Khalifa"
+ landmark_burj_khalifa_plural: "$landmark_burj_khalifa$"
+ landmark_burj_khalifa_desc: "Completed in 2010 and standing at 828 meters, the Burj Khalifa in Dubai is the world's tallest building. Its mixed-use tower contains offices, apartments, and the Armani Hotel, with observation decks attracting nearly two million visitors annually. The tower's innovative engineering, energy-efficient systems, and iconic design have made it the defining symbol of modern Dubai and a centerpiece of the city's international prestige."
+
+ landmark_one_wtc: "One World Trade Center"
+ landmark_one_wtc_plural: "$landmark_one_wtc$"
+ landmark_one_wtc_desc: "Completed in 2014 in Lower Manhattan, One World Trade Center rises 541 meters to become the tallest building in the Western Hemisphere. Built as a symbol of resilience and renewal on the site of the original World Trade Center, the tower features a distinctive spire, energy-efficient design, and serves as an office complex housing major media and financial firms. Its completion marked New York's determination to rebuild and restore economic vitality to Lower Manhattan."
+
+ landmark_shanghai_tower: "Shanghai Tower"
+ landmark_shanghai_tower_plural: "$landmark_shanghai_tower$"
+ landmark_shanghai_tower_desc: "Completed in 2015 and standing at 632 meters, Shanghai Tower is China's tallest building and the world's second-tallest by architectural height. Located in the Pudong district's financial center, the tower combines office space, hotels, conference facilities, and retail outlets within its distinctive twisted cylindrical form. It exemplifies Shanghai's evolution as a global financial center and symbolizes China's rapid urbanization and economic transformation in the twenty-first century."
+
+ landmark_lotte_tower: "Lotte World Tower"
+ landmark_lotte_tower_plural: "$landmark_lotte_tower$"
+ landmark_lotte_tower_desc: "Completed in 2017 and standing at 555 meters, Lotte World Tower in Seoul is South Korea's tallest building. Its mixed-use design includes offices, residences, a luxury hotel, a shopping mall, and an observation deck with panoramic views of the city. The tower represents South Korea's technological and architectural prowess, anchoring the Songpa District's skyline and drawing hundreds of thousands of visitors annually."
+
+ landmark_lhc: "Large Hadron Collider"
+ landmark_lhc_plural: "$landmark_lhc$"
+ landmark_lhc_desc: "The world's largest and highest-energy particle collider, the Large Hadron Collider (LHC) sits beneath the Franco-Swiss border near Geneva. Operated by CERN, the seventeen-kilometer circular tunnel accelerates protons to nearly the speed of light and smashes them together to recreate conditions microseconds after the Big Bang. The LHC's discovery of the Higgs boson in 2012 confirmed a fundamental prediction of particle physics and stands as one of humanity's greatest scientific achievements."
+
+ landmark_iter: "ITER"
+ landmark_iter_plural: "$landmark_iter$"
+ landmark_iter_desc: "The International Thermonuclear Experimental Reactor (ITER), under construction in southern France near Provence, represents humanity's most ambitious fusion energy project. When operational, it will be the world's largest magnetic confinement fusion reactor, designed to demonstrate that sustained fusion reactions can generate more energy than they consume. ITER's construction involves cooperation among dozens of nations and symbolizes the international scientific community's shared commitment to developing clean, safe, unlimited fusion energy."
+
+ # Audit: Adding missing _plural and _desc for existing 10 landmarks
+ landmark_big_ben: "Big Ben"
+ landmark_big_ben_plural: "$landmark_big_ben$"
+ landmark_big_ben_desc: "The Great Bell within the clock tower at the Palace of Westminster in London, England, has been known colloquially as Big Ben since its installation in 1859. The iconic Gothic Revival tower, officially called the Elizabeth Tower since its 2022 renovation and restoration, stands at the north end of the Palace of Westminster and has become the most recognizable symbol of the United Kingdom. Its distinctive chimes mark each hour and have been broadcast on BBC Radio since 1924."
+
+ landmark_cristo_redentor: "Cristo Redentor"
+ landmark_cristo_redentor_plural: "$landmark_cristo_redentor$"
+ landmark_cristo_redentor_desc: "Completed in 1931 atop Corcovado Mountain overlooking Rio de Janeiro, Christ the Redeemer stands as one of the world's largest Art Deco monuments. The 30-meter statue of Jesus Christ with arms outstretched has become Brazil's most recognizable symbol and a UNESCO World Heritage Site. The monument draws nearly two million visitors annually from around the world and serves as a powerful symbol of Brazilian faith and national identity."
+
+ landmark_colosseum: "Colosseum"
+ landmark_colosseum_plural: "$landmark_colosseum$"
+ landmark_colosseum_desc: "Built between 72 and 80 CE in Rome under emperors Vespasian and Titus, the Colosseum is the largest amphitheater ever built and one of the finest examples of Roman engineering. Once capable of holding over 50,000 spectators, it hosted gladiatorial fights and public spectacles for nearly 400 years. Today, despite centuries of damage and decay, it remains Rome's most iconic landmark and a UNESCO World Heritage Site drawing millions of visitors annually."
+
+ landmark_kremlin: "Kremlin"
+ landmark_kremlin_plural: "$landmark_kremlin$"
+ landmark_kremlin_desc: "The fortified complex at the heart of Moscow, the Kremlin has served as the political and spiritual center of Russian power for over five centuries. Its walls enclose the residence of the Russian President, multiple cathedrals, government offices, and the famous Red Square. The Kremlin's distinctive red brick walls and multiple towers make it one of the world's most recognizable symbols of state authority and Russian cultural heritage."
+
+ landmark_statue_of_liberty: "Statue of Liberty"
+ landmark_statue_of_liberty_plural: "$landmark_statue_of_liberty$"
+ landmark_statue_of_liberty_desc: "A gift from France to the United States dedicated in 1886, the Statue of Liberty stands on Liberty Island in New York Harbor as a colossal copper monument to freedom. Designed by French sculptor Frederic Auguste Bartholdi, the 93-meter statue has greeted millions of immigrants arriving by ship and has become a worldwide symbol of liberation and democracy. The statue and Ellis Island together form a UNESCO World Heritage Site drawing over three million visitors annually."
+
+ landmark_eiffel_tower: "Eiffel Tower"
+ landmark_eiffel_tower_plural: "$landmark_eiffel_tower$"
+ landmark_eiffel_tower_desc: "Built for the 1889 World's Fair in Paris, the Eiffel Tower stands as one of the world's most iconic structures and an enduring symbol of France. Designed by Gustave Eiffel, the wrought-iron lattice tower reaches 330 meters into the Parisian sky and has become an inseparable part of the city's identity. The tower draws nearly seven million visitors annually, making it the world's most-visited paid monument."

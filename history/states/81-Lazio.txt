@@ -40,6 +40,9 @@ state = {
 					level = 1
 				}
 			}
+			9794 = {
+				landmark_st_peters = { level = 1 }
+			}
 			fossil_powerplant = 1
 		}
 		add_core_of = ITA

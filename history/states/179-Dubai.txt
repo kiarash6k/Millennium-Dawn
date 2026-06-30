@@ -21,6 +21,12 @@ state = {
 			internet_station = 2
 			offices = 2
 			arms_factory = 2
+			3725 = {
+				landmark_palm_jumeirah = { level = 1 }
+			}
+			3709 = {
+				landmark_burj_khalifa = { level = 1 }
+			}
 			fossil_powerplant = 2
 			composite_plant = 1
 		}

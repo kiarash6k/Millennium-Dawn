@@ -43,6 +43,9 @@ state = {
 				# naval
 				naval_facility = 1
 			}
+			11960 = {
+				landmark_kiyomizu_dera = { level = 1 }
+			}
 			fossil_powerplant = 7
 			composite_plant = 1
 		}

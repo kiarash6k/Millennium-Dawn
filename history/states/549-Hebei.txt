@@ -50,6 +50,9 @@ state = {
 			industrial_complex = 6
 			arms_factory = 2
 			fuel_silo = 2
+			4190 = {
+				landmark_great_wall = { level = 1 }
+			}
 			fossil_powerplant = 3
 			composite_plant = 1
 		}

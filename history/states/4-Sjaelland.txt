@@ -25,6 +25,9 @@ state = {
 					}
 				}
 			}
+			6393 = {
+				landmark_oresund_bridge = { level = 1 }
+			}
 			fossil_powerplant = 4
 			composite_plant = 1
 		}

@@ -27,6 +27,9 @@ state = {
 			offices = 1
 			renewable_energy_infra = 2
 			air_base = 4
+			8181 = {
+				landmark_itaipu_dam = { level = 1 }
+			}
 			fossil_powerplant = 1
 		}
 		add_core_of = BRA

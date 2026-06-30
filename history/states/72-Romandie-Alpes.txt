@@ -23,6 +23,7 @@ state = {
 			stronghold_network = 1 #swiss underground bunkers
 			6666 = {
 				air_facility = 1
+				landmark_lhc = { level = 1 }
 			}
 			fossil_powerplant = 1
 		}

@@ -31,6 +31,9 @@ state = {
 					}
 				}
 			}
+			1205 = {
+				landmark_acropolis = { level = 1 }
+			}
 			fossil_powerplant = 4
 			composite_plant = 1
 		}

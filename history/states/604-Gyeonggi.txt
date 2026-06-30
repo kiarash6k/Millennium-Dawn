@@ -73,6 +73,7 @@ state = {
 				# Hyandai heavy
 				land_facility = 1
 				bunker = 2
+				landmark_lotte_tower = { level = 1 }
 			}
 			fossil_powerplant = 8
 			composite_plant = 1

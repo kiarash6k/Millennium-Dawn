@@ -33,6 +33,7 @@ state = {
 			7014 = {
 				# state owned stuff
 				naval_facility = 1
+				landmark_shanghai_tower = { level = 1 }
 			}
 			fossil_powerplant = 4
 			composite_plant = 1

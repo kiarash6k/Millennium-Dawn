@@ -73,6 +73,9 @@ state = {
 			arms_factory = 2
 			offices = 1
 			air_base = 10
+			4619 = {
+				landmark_three_gorges = { level = 1 }
+			}
 			fossil_powerplant = 4
 			composite_plant = 1
 		}

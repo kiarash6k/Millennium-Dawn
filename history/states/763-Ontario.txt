@@ -91,6 +91,9 @@ state = {
 			3763 = {
 				nuclear_facility = 1
 			}
+			3775 = {
+				landmark_cn_tower = { level = 1 }
+			}
 			fossil_powerplant = 1
 			composite_plant = 1
 		}

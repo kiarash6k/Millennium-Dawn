@@ -43,6 +43,9 @@ state = {
 					level = 1
 				}
 			}
+			9498 = {
+				landmark_delta_works = { level = 1 }
+			}
 			fossil_powerplant = 5
 			composite_plant = 1
 		}

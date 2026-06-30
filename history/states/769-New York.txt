@@ -45,6 +45,9 @@ state = {
 					level = 1
 				}
 			}
+			16138 = {
+				landmark_one_wtc = { level = 1 }
+			}
 			fossil_powerplant = 3
 			composite_plant = 2
 		}
