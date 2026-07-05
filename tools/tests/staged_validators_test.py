@@ -17,7 +17,6 @@ All temporary files and git state are cleaned up automatically.
 import os
 import subprocess
 import sys
-import tempfile
 import time
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -203,7 +202,7 @@ def main():
 
         # history_techs should find issues with non-existent tech
         run_validator(
-            "validate_history_techs.py",
+            "validate_history.py",
             "history techs validator finds bad tech dependency",
             expect_issues=True,
         )

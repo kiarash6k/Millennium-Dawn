@@ -847,14 +847,14 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			build_cost_ic = 4
-			fuel_consumption = 7
-			maximum_speed = 30
-			reliability = -0.2
+			build_cost_ic = 6
+			fuel_consumption = 9
+			maximum_speed = 37.5
+			reliability = -0.21
 		}
 		multiply_stats = {
-			breakthrough = -0.15
-			defense = -0.15
+			breakthrough = 0.113
+			defense = 0.113
 		}
 		can_convert_from = {
 			module_category = helicopter_turbine_engine_type
@@ -876,14 +876,14 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			build_cost_ic = 4
-			fuel_consumption = 7
-			maximum_speed = 30
-			reliability = -0.2
+			build_cost_ic = 7
+			fuel_consumption = 10.5
+			maximum_speed = 46.875
+			reliability = -0.21
 		}
 		multiply_stats = {
-			breakthrough = -0.15
-			defense = -0.15
+			breakthrough = 0.125
+			defense = 0.125
 		}
 		can_convert_from = {
 			module_category = helicopter_turbine_engine_type
@@ -905,14 +905,14 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			build_cost_ic = 4
-			fuel_consumption = 7
-			maximum_speed = 30
-			reliability = -0.2
+			build_cost_ic = 8
+			fuel_consumption = 12
+			maximum_speed = 56.25
+			reliability = -0.21
 		}
 		multiply_stats = {
-			breakthrough = -0.15
-			defense = -0.15
+			breakthrough = 0.138
+			defense = 0.138
 		}
 		can_convert_from = {
 			module_category = helicopter_turbine_engine_type
@@ -934,14 +934,14 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			build_cost_ic = 4
-			fuel_consumption = 7
-			maximum_speed = 30
-			reliability = -0.2
+			build_cost_ic = 9
+			fuel_consumption = 13.5
+			maximum_speed = 65.625
+			reliability = -0.21
 		}
 		multiply_stats = {
-			breakthrough = -0.15
-			defense = -0.15
+			breakthrough = 0.15
+			defense = 0.15
 		}
 		can_convert_from = {
 			module_category = helicopter_turbine_engine_type

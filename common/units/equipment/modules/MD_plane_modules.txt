@@ -2346,7 +2346,8 @@ equipment_modules = {
 			supply_consumption = 0.01
 		}
 		build_cost_resources = {
-			tungsten = 2
+			aluminium = 2
+			microchips = 2
 		}
 		allow_mission_type = {
 			air_superiority
@@ -2381,10 +2382,6 @@ equipment_modules = {
 				air_agility = -0.02
 			}
 		}
-		build_cost_resources = {
-			aluminium = 2
-			microchips = 2
-		}
 		can_convert_from = {
 			module_category = plane_fighter_weapons
 			convert_cost_ic = 20
@@ -2405,6 +2402,8 @@ equipment_modules = {
 		}
 		build_cost_resources = {
 			tungsten = 2
+			aluminium = 3
+			microchips = 2
 		}
 		allow_mission_type = {
 			air_superiority
@@ -2438,10 +2437,6 @@ equipment_modules = {
 			multiply_stats = {
 				air_agility = -0.02
 			}
-		}
-		build_cost_resources = {
-			aluminium = 3
-			microchips = 2
 		}
 		can_convert_from = {
 			module_category = plane_fighter_weapons
@@ -2612,7 +2607,7 @@ equipment_modules = {
 
 	weap_int_mp_light_hardpoint_5 = {
 		abbreviation = "slam5" #light air missile
-		category = plane_fighter_weapons
+		category = plane_stealth_mr_weapons
 		parent = weap_mp_light_hardpoint_4
 		sfx = sfx_ui_sd_modules_turret
 		add_equipment_type = tactical_bomber
@@ -2668,7 +2663,7 @@ equipment_modules = {
 
 	weap_int_mp_light_hardpoint_6 = {
 		abbreviation = "slam6" #light air missile
-		category = plane_fighter_weapons
+		category = plane_stealth_mr_weapons
 		parent = weap_mp_light_hardpoint_5
 		sfx = sfx_ui_sd_modules_turret
 		add_equipment_type = tactical_bomber
@@ -5073,9 +5068,9 @@ equipment_modules = {
 	}
 	air_module_railgun_gunship_1 = {
 		abbreviation = "rgg1"
-		category = plane_heavy_strike_modules
+		category = plane_gunship_modules
 		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = suicide
+		add_equipment_type = cas
 
 		add_stats = {
 			build_cost_ic = 110
@@ -5088,6 +5083,15 @@ equipment_modules = {
 			port_strike
 		}
 
+		forbid_equipment_type_exact_match_for_category = {
+			plane_heavy_modules = cas
+			plane_bomb_bay = cas
+		}
+
+		allowed_module_categories = {
+			fixed_gun_slot = { plane_heavy_strike_modules }
+		}
+
 		mission_type_stats = {
 			limit = {
 				attack_logistics
@@ -5098,7 +5102,7 @@ equipment_modules = {
 				air_bombing = 55
 				naval_strike_attack = 25
 				air_defence = -15
-				weight = 25
+				weight = 10
 			}
 			add_average_stats = {
 				naval_strike_targetting = 15
@@ -5117,10 +5121,10 @@ equipment_modules = {
 	}
 	air_module_railgun_gunship_2 = {
 		abbreviation = "rgg2"
-		category = plane_heavy_strike_modules
+		category = plane_gunship_modules
 		parent = air_module_railgun_gunship_1
 		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = suicide
+		add_equipment_type = cas
 
 		add_stats = {
 			build_cost_ic = 178.65
@@ -5133,6 +5137,15 @@ equipment_modules = {
 			port_strike
 		}
 
+		forbid_equipment_type_exact_match_for_category = {
+			plane_heavy_modules = cas
+			plane_bomb_bay = cas
+		}
+
+		allowed_module_categories = {
+			fixed_gun_slot = { plane_heavy_strike_modules }
+		}
+
 		mission_type_stats = {
 			limit = {
 				attack_logistics
@@ -5143,7 +5156,7 @@ equipment_modules = {
 				air_bombing = 65.28
 				naval_strike_attack = 25.2
 				air_defence = -15
-				weight = 40
+				weight = 16
 			}
 			add_average_stats = {
 				naval_strike_targetting = 17.15
@@ -5162,10 +5175,10 @@ equipment_modules = {
 	}
 	air_module_railgun_gunship_3 = {
 		abbreviation = "rgg3"
-		category = plane_heavy_strike_modules
+		category = plane_gunship_modules
 		parent = air_module_railgun_gunship_2
 		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = suicide
+		add_equipment_type = cas
 
 		add_stats = {
 			build_cost_ic = 354.62
@@ -5178,6 +5191,15 @@ equipment_modules = {
 			port_strike
 		}
 
+		forbid_equipment_type_exact_match_for_category = {
+			plane_heavy_modules = cas
+			plane_bomb_bay = cas
+		}
+
+		allowed_module_categories = {
+			fixed_gun_slot = { plane_heavy_strike_modules }
+		}
+
 		mission_type_stats = {
 			limit = {
 				attack_logistics
@@ -5188,7 +5210,7 @@ equipment_modules = {
 				air_bombing = 106.54
 				naval_strike_attack = 45.36
 				air_defence = -15
-				weight = 64
+				weight = 26
 			}
 			add_average_stats = {
 				naval_strike_targetting = 19.60
@@ -5207,10 +5229,10 @@ equipment_modules = {
 	}
 	air_module_railgun_gunship_4 = {
 		abbreviation = "rgg4"
-		category = plane_heavy_strike_modules
+		category = plane_gunship_modules
 		parent = air_module_railgun_gunship_3
 		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = suicide
+		add_equipment_type = cas
 
 		add_stats = {
 			build_cost_ic = 703.92
@@ -5223,6 +5245,15 @@ equipment_modules = {
 			port_strike
 		}
 
+		forbid_equipment_type_exact_match_for_category = {
+			plane_heavy_modules = cas
+			plane_bomb_bay = cas
+		}
+
+		allowed_module_categories = {
+			fixed_gun_slot = { plane_heavy_strike_modules }
+		}
+
 		mission_type_stats = {
 			limit = {
 				attack_logistics
@@ -5233,7 +5264,7 @@ equipment_modules = {
 				air_bombing = 173.87
 				naval_strike_attack = 81.65
 				air_defence = -15
-				weight = 102.4
+				weight = 41
 			}
 			add_average_stats = {
 				naval_strike_targetting = 22.40
@@ -5252,10 +5283,10 @@ equipment_modules = {
 	}
 	air_module_railgun_gunship_5 = {
 		abbreviation = "rgg5"
-		category = plane_heavy_strike_modules
+		category = plane_gunship_modules
 		parent = air_module_railgun_gunship_4
 		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = suicide
+		add_equipment_type = cas
 
 		add_stats = {
 			build_cost_ic = 1393.76
@@ -5268,6 +5299,15 @@ equipment_modules = {
 			port_strike
 		}
 
+		forbid_equipment_type_exact_match_for_category = {
+			plane_heavy_modules = cas
+			plane_bomb_bay = cas
+		}
+
+		allowed_module_categories = {
+			fixed_gun_slot = { plane_heavy_strike_modules }
+		}
+
 		mission_type_stats = {
 			limit = {
 				attack_logistics
@@ -5278,7 +5318,7 @@ equipment_modules = {
 				air_bombing = 282.7
 				naval_strike_attack = 147
 				air_defence = -15
-				weight = 164
+				weight = 66
 			}
 			add_average_stats = {
 				naval_strike_targetting = 25.6
@@ -5297,10 +5337,10 @@ equipment_modules = {
 	}
 	air_module_railgun_gunship_6 = {
 		abbreviation = "rgg6"
-		category = plane_heavy_strike_modules
+		category = plane_gunship_modules
 		parent = air_module_railgun_gunship_5
 		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = suicide
+		add_equipment_type = cas
 
 		add_stats = {
 			build_cost_ic = 2759.65
@@ -5313,6 +5353,15 @@ equipment_modules = {
 			port_strike
 		}
 
+		forbid_equipment_type_exact_match_for_category = {
+			plane_heavy_modules = cas
+			plane_bomb_bay = cas
+		}
+
+		allowed_module_categories = {
+			fixed_gun_slot = { plane_heavy_strike_modules }
+		}
+
 		mission_type_stats = {
 			limit = {
 				attack_logistics
@@ -5323,7 +5372,7 @@ equipment_modules = {
 				air_bombing = 460.81
 				naval_strike_attack = 264.6
 				air_defence = -15
-				weight = 262
+				weight = 105
 			}
 			add_average_stats = {
 				naval_strike_targetting = 29.25
@@ -5342,10 +5391,10 @@ equipment_modules = {
 	}
 	air_module_railgun_gunship_7 = {
 		abbreviation = "rgg7"
-		category = plane_heavy_strike_modules
+		category = plane_gunship_modules
 		parent = air_module_railgun_gunship_6
 		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = suicide
+		add_equipment_type = cas
 
 		add_stats = {
 			build_cost_ic = 5464.10
@@ -5358,6 +5407,15 @@ equipment_modules = {
 			port_strike
 		}
 
+		forbid_equipment_type_exact_match_for_category = {
+			plane_heavy_modules = cas
+			plane_bomb_bay = cas
+		}
+
+		allowed_module_categories = {
+			fixed_gun_slot = { plane_heavy_strike_modules }
+		}
+
 		mission_type_stats = {
 			limit = {
 				attack_logistics
@@ -5368,7 +5426,7 @@ equipment_modules = {
 				air_bombing = 751.14
 				naval_strike_attack = 480
 				air_defence = -15
-				weight = 419
+				weight = 168
 			}
 			add_average_stats = {
 				naval_strike_targetting = 33.4
@@ -8501,7 +8559,7 @@ equipment_modules = {
 		xp_cost = 2
 	}
 	air_module_hypersonic_engine_2 = {
-		abbreviation = "hse1"
+		abbreviation = "hse2"
 		category = plane_light_single
 		parent = air_module_hypersonic_engine_1
 		sfx = x
@@ -8521,6 +8579,49 @@ equipment_modules = {
 
 		xp_cost = 2
 	}
+
+	air_module_hypersonic_engine_jet_1 = {
+		abbreviation = "hse1"
+		category = plane_jet_single
+		sfx = x
+
+		add_stats = {
+			maximum_speed = 2865
+			thrust = 85
+			build_cost_ic = 183
+			fuel_consumption = 4.2
+			reliability = -0.10
+		}
+
+		build_cost_resources = {
+			chromium = 6
+			tungsten = 4
+		}
+
+		xp_cost = 2
+	}
+	air_module_hypersonic_engine_jet_2 = {
+		abbreviation = "hse1"
+		category = plane_jet_single
+		parent = air_module_hypersonic_engine_jet_1
+		sfx = x
+
+		add_stats = {
+			maximum_speed = 3094.20
+			thrust = 109.48
+			build_cost_ic = 216.31
+			fuel_consumption = 4.12
+			reliability = -0.10
+		}
+
+		build_cost_resources = {
+			chromium = 6
+			tungsten = 4
+		}
+
+		xp_cost = 2
+	}
+
 	air_module_railgun_cannon_1 = {
 		abbreviation = "arc1"
 		category = plane_multipurpose_gun

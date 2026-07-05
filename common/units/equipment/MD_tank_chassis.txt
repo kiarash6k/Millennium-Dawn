@@ -947,6 +947,7 @@ equipments = {
 					tank_suspension_type_light
 					tank_suspension_type_med
 					tank_suspension_type_heavy
+					afv_hover_suspension_type_category
 				}
 			}
 			armor_type_slot = {
@@ -1013,7 +1014,7 @@ equipments = {
 				}
 			}
 			special_type_slot_4 = {
-				required = no
+				required = yes #Was no, but since R3d Kn19h7 kept bitching, I fixed the issue
 				allowed_module_categories = {
 					tank_battlestation_module
 				}
